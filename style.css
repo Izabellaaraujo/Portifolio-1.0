@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    background-color: #000000;
+    right: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+h2.titulo{
+    color:#1A4CC9;
+    font-size: 38px;
+    font-weight: bolder;
+    line-height: 40px;
+}
+/* CABEÇALHO */
+
+header{
+    padding: 40px  4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+
+header a{
+    color:#ffff;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #ffff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .contato button{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 20px;
+    background-color: #1A4CC9;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #ffff;
+}
+
+/* ESTILO DO TOPO DO SITE */
+section.topo{
+    padding: 40px 4%;
+}
+
+section.topo.flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+.topo h2{
+    color:#1A4CC9;
+    font-size: 38px;
+    font-weight: bolder;
+    line-height: 40px;
+
+}
+
+.topo .texto p{
+    color: #ffff;
+    margin: 20px 0;
+}
+
+img{
+    border: 3px solid #000000;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+/* ESTILO DOS PROJETOS */
+section.projetos{
+    padding: 40px 4%;
+}
+
+.projetos-box{
+    color: #ffff;
+    padding: 40px;
+    border: 2px solid #ffff;
+    gap: 55px;
+    margin-top: 45px;
+    border-radius: 30px;
+    margin-left: 20px;
+    transition: .2s;
+}
+
+.projetos-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffff;
+}
+
+.projetos-box p{
+    font-size: 15px;
+    line-height: 20px;
+    margin: 30px 0;
+}
+
+.projetos-box h3{
+    color:#587bd5;
+    font-size: 22px;
+    font-weight: bolder;
+    line-height: 40px;
+    
+}
+
+/* ESTILO SOBRE */
+section.sobre{
+    padding: 40px 4%;
+}
+
+section.flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.txt-sobre{
+    color: #ffff; 
+    margin-left: 30px;
+}
+
+.txt-sobre h2{
+    font-size: 35px;
+    color: #1A4CC9;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.txt-sobre h4{
+    font-size: 35px;
+    color:#ffff;
+
+}
+
+.txt-sobre p{
+    margin: 20px 0;
+}
+
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50% ;
+    border: none;
+    background-color: #1A4CC9;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 6px;
+
+}
+
+.btn-social button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffff;
+}
+
+/* ESTILO CONTATOS RODAPÉ */
+
+section.contato{
+    padding: 40px 4%;
+
+}
+
+.info-ctt p{
+    color: #ffff;
+    font-size: 15px;
+    line-height: 15px;
+    margin: 20px 0;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.info-ctt h4{
+    font-size: 35px;
+    color: #1A4CC9;
+
+}
