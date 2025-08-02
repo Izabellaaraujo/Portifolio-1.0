@@ -1,0 +1,15 @@
+# Iniciar um repositório
+git init
+
+# adicionar referencia a um repositório existente
+git remote add origin "url-do-repositório.git"
+
+# clonar repositório
+git clone "url-do-repositório.git"
+
+# clonar repositório sem pasta
+git clone "url-do-repositório.git ."
+
+# clonar branch especifica
+git clone --branch "nome-da-branch" "url-do-repositório.git"
+
