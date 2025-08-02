@@ -12,3 +12,6 @@ git clone "url-do-repositório.git ."
 
 # clonar branch especifica
 git clone --branch "nome-da-branch" "url-do-repositório.git"
+
+# verifica referencia do repositório
+git remote -v
