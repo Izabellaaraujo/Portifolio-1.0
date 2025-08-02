@@ -1,0 +1,26 @@
+# Criar uma venv com pyenv
+C:\Users\usuario\.pyenv\pyenv-win\versions\versao-do-python\python.exe -m venv venv
+
+# Como instalar uma versão do pyenv
+pyenv install versao-do-python
+
+# Ativar uma venv
+.\venv\Scripts\activate
+
+# Criar .python-versions
+python --version > .python-version
+
+# instalar bibliotecas
+python -m pip install "nome-biblioteca"
+
+# criar arquivo requirements
+python -m pip freeze > requirements.txt
+
+# instalar bibliotecas do requirements.txt
+python -m pip install -r requirements.txt
+
+# listar bibliotecas
+python -m pip list
+
+# rodar arquivo python
+python "nome-arquivo.py"
