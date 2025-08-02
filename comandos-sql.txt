@@ -1,0 +1,9 @@
+# Criar um usuario no banco de dados
+CREATE LOGIN "usuario" WITH PASSWORD = 'senha';
+
+# Criar um base de dados
+CREATE DATABASE "nome-da-base"
+
+# Criar login para banco de dados
+USE "nome-da-base";
+CREATE USER "nome-usuario" FOR LOGIN "login";
